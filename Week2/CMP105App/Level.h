@@ -25,5 +25,12 @@ private:
 	Input* input;
 
 	// Add your object here
+	bool drag;
+	int mouseX, mouseY, old_mousex, old_mousey;
+
+	sf::Text mousepos;
+	sf::Font font;
+
+	sf::CircleShape rclick;
 
 };
